@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "319562274733",
+    "project_id": "shehacksteam-084",
+    "storage_bucket": "shehacksteam-084.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319562274733:android:28890f9c11995395b17324",
+        "android_client_info": {
+          "package_name": "com.example.shehacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319562274733-vqetoaavfbkeaanibghdp4hc028d2h9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX6xR99g3nWeXMew9MJDUUB-XKP0G3DhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319562274733-vqetoaavfbkeaanibghdp4hc028d2h9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

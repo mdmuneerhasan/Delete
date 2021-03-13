@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParentRegister"
+    android:background="@color/back_ground"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register as a parent"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="32dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:background="@drawable/bg_edit_text"
+            android:layout_below="@id/tvInfo"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            />
+
+        <EditText
+            android:id="@+id/edtAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="age"
+            android:background="@drawable/bg_edit_text"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            android:layout_below="@id/edtName"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:background="@drawable/bg_edit_text"
+            android:layout_below="@id/edtAge"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            />
+
+        <EditText
+            android:id="@+id/edtZip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="zip code"
+            android:background="@drawable/bg_edit_text"
+            android:layout_below="@id/edtAddress"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            android:inputType="number"
+            />
+
+        <Spinner
+            android:id="@+id/spHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtZip"
+            android:layout_margin="16dp"
+            />
+
+
+        <EditText
+            android:id="@+id/edtExpectation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expectation from service"
+            android:background="@drawable/bg_edit_text"
+            android:layout_below="@id/spHours"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            />
+
+        <EditText
+            android:id="@+id/edtAdhaar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adhaar number"
+            android:background="@drawable/bg_edit_text"
+            android:layout_below="@id/edtExpectation"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            />
+
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Id"
+            android:background="@drawable/bg_edit_text"
+            android:layout_below="@id/edtAdhaar"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@drawable/bg_edit_text"
+            android:layout_below="@id/edtEmail"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            />
+        <CheckBox
+            android:id="@+id/chTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtPassword"
+            android:layout_margin="8dp"
+            android:text="I accept all the terms and conditions"
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_below="@id/chTerms"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_button"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>
